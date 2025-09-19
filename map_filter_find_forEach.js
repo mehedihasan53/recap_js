@@ -15,3 +15,7 @@ products.forEach(p => console.log(p.name))
 // 3.filter
 const expensive = products.filter(p => p.price > 1000)
 console.log(expensive)
+
+// 4.find
+const find = products.find(p => p.name === 'phone')
+console.log(find)
