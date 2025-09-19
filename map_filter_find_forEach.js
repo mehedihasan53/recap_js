@@ -11,3 +11,7 @@ const prices = products.map(p => p.price)
 // console.log(prices)
 // 2.forEach
 products.forEach(p => console.log(p.name))
+
+// 3.filter
+const expensive = products.filter(p => p.price > 1000)
+console.log(expensive)
