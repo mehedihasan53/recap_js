@@ -19,3 +19,11 @@ console.log(expensive)
 // 4.find
 const find = products.find(p => p.name === 'phone')
 console.log(find)
+// object distracting
+const student = {
+    Name: "mehedi",
+    age: 22,
+    adress: "dhaka",
+    phone: 125,
+};
+
